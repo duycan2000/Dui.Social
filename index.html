@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Dui Social</title>
+    
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <script src="script.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">
+
+<nav class="fixed top-0 w-full z-50 glass-nav flex justify-between items-center px-6 md:px-12 py-4 md:py-6 shadow-black/10">
+    <div class="text-xl md:text-2xl font-black text-[#ffe1b8] tracking-tighter font-headline">
+        Dui Social
+    </div>
+    <div class="hidden lg:flex items-center gap-10 font-label text-xs tracking-widest uppercase font-bold">
+        <a class="text-[#ffe1b8] border-b-2 border-[#ffe1b8] pb-1" href="#story">Our Story</a>
+        <a class="text-[#d4c5ab] hover:text-[#ffe1b8] transition-colors" href="#menu">The Alchemist Menu</a>
+        <a class="text-[#d4c5ab] hover:text-[#ffe1b8] transition-colors" href="#reservations">Reservations</a>
+        <a class="text-[#d4c5ab] hover:text-[#ffe1b8] transition-colors" href="#contact">Contact</a>
+    </div>
+    <button class="bg-gradient-to-r from-primary to-primary-container text-on-primary-fixed px-4 md:px-6 py-2 md:py-2.5 rounded-lg font-bold text-xs md:text-sm tracking-tight scale-95 active:duration-100 hover:brightness-110 transition-all">
+        Book a Table
+    </button>
+</nav>
+
+<main>
+    <section class="relative h-screen flex flex-col items-center justify-center text-center px-4 md:px-6 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img alt="Dui Social Hero" class="w-full h-full object-cover brightness-[0.2]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACzqcqOC9EJrcFVIXcjkXa11ypJgGknV6_7TpCvAorilSJB3b_-LJccgBkueAyi9K4UMCvYKmmbJr-OX0IPAuG7rqzkiLs_06Uc2zq8KQQ87ZA_ITV0WHV0zhyuv3_-YHXrd3cHHDsrudedlBbEMAw8zttr_hLn2d5fJk_2ZHkC7LBOA_zgvovs32Mp9-SA6D4nxo8bHXWJWrc1hHIQhskYzI5F6QPYwyP3RppHmNCV2YKcmgmBbOc958np3hLPoiYXWcquTdzbEvr"/>
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-background/20 to-background"></div>
+        </div>
+        <div class="relative z-10 space-y-4 max-w-4xl mt-12 md:mt-0">
+            <span class="font-label text-secondary tracking-[0.2em] md:tracking-[0.4em] uppercase text-[10px] md:text-xs font-bold block mb-4">Established in Da Nang</span>
+            <h1 class="font-headline text-6xl md:text-[7rem] font-black text-[#ffe1b8] tracking-tighter leading-none text-glow">
+                DUI SOCIAL
+            </h1>
+            <p class="font-body text-lg md:text-2xl text-on-surface-variant max-w-2xl mx-auto font-light italic opacity-90 px-4">
+                A Street Cocktail Bar in An Thuong
+            </p>
+            <div class="pt-8 md:pt-12">
+                <a class="inline-flex items-center gap-2 border-b border-primary/40 pb-2 text-primary font-bold tracking-widest uppercase text-[10px] md:text-xs hover:border-primary transition-all" href="#menu">
+                    Explore Mixology <span class="material-symbols-outlined text-sm">arrow_downward</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 md:py-32 px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-10 md:gap-16 items-center" id="story">
+        <div class="lg:col-span-7 space-y-6 md:space-y-8">
+            <h2 class="font-headline text-4xl md:text-5xl font-bold text-primary leading-tight">
+                Where Da Nang's Pulse <br class="hidden md:block"/> Meets Liquid Art.
+            </h2>
+            <div class="space-y-4 md:space-y-6 max-w-xl">
+                <p class="font-body text-base md:text-lg text-on-surface-variant leading-relaxed">
+                    Dui Social is a hidden gem in the heart of An Thuong. We blend the vibrant energy of Da Nang’s street life with the art of mixology. 
+                </p>
+                <p class="font-body text-base md:text-lg text-on-surface-variant leading-relaxed">
+                    From signature cocktails to local vibes, we are the go-to spot for travelers and locals looking for an authentic night experience.
+                </p>
+            </div>
+            <div class="pt-4 flex gap-8 md:gap-12">
+                <div>
+                    <div class="text-2xl md:text-3xl font-black text-secondary">100+</div>
+                    <div class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">Unique Recipes</div>
+                </div>
+                <div>
+                    <div class="text-2xl md:text-3xl font-black text-secondary">4.9</div>
+                    <div class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">Guest Rating</div>
+                </div>
+            </div>
+        </div>
+        <div class="lg:col-span-5 relative mt-8 lg:mt-0">
+            <div class="aspect-[3/4] bg-surface-container-high rounded-xl overflow-hidden shadow-2xl">
+                <img alt="Mixology" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5pEnmNzv5nePkJHq4GkeGj5MTLwPnqbScITkcgtROq4nwOk6beq1opF7SUHAqcYuYaOyzrrlEeEN_PtRi9UXfuh8lA05hYm7Qwdcp9nGEP_9-IgJx8SMUc9EJiOcJGGa6RngxKAB_I1z0TnI4KyQdrgVI8gBWmXZF39_-O5BtvJdVBO9gQIEgGbuq2zPVFJ-CpGNp5Od-RTVuj1ExlMnZeXaSurgzaOYZG4x6jpzJvFusRj4e53PaEQWvlzZhKDz75ljiYs7Y-Qml"/>
+            </div>
+            <div class="absolute -bottom-6 -left-6 md:-bottom-8 md:-left-8 bg-primary p-4 md:p-6 rounded-lg shadow-black/40 shadow-2xl hidden md:block">
+                <span class="material-symbols-outlined text-on-primary text-3xl md:text-4xl">local_bar</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 md:py-32 bg-surface-container-lowest" id="menu">
+        <div class="px-6 md:px-12 mb-10 md:mb-16 flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
+            <div>
+                <h6 class="font-label text-secondary tracking-widest uppercase text-[10px] md:text-xs font-bold mb-2">The Collection</h6>
+                <h2 class="font-headline text-3xl md:text-5xl font-bold text-on-surface">The Alchemist Menu</h2>
+            </div>
+            <button class="font-label text-primary border border-outline-variant/30 px-5 md:px-6 py-2 rounded-full text-[10px] md:text-xs uppercase tracking-widest hover:bg-surface-bright transition-all w-full md:w-auto">View Full Menu</button>
+        </div>
+        <div class="px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="md:col-span-2 lg:row-span-2 group relative overflow-hidden rounded-xl bg-surface-container-high h-[400px] lg:h-[600px]">
+                <img class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyAylkmktB5G3-hx3VCnxKbibvZ-XUKjkiNsACQ5wUjc66ptK5dB_VQBSZH00mkFvTWKxtZVyHxwXk5G2Ml11OaZCfY6HNGxnoXwpkMyjVsiuakuuDxnBbvL53flsS-l3Mliv24AqIl8xTN2FQe02OttXLtFRsXclaXXzTu07hVTQRwt-4VZdXyKv2MJFLwabUgusu-bHGma_3z58jg2rmreThNabynTKILEvZ7ZfTICp74ibLz06z-ktkUTKbICIveSGuaJYYXQpB"/>
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 p-6 md:p-10 w-full">
+                    <div class="flex flex-col md:flex-row justify-between md:items-end gap-2">
+                        <div>
+                            <h3 class="font-headline text-2xl md:text-4xl font-bold text-white mb-2">The Alchemist Sour</h3>
+                            <p class="text-on-surface-variant font-body max-w-xs text-xs md:text-sm">Our signature twist with local herbs, lemon, and a secret house syrup.</p>
+                        </div>
+                        <div class="text-2xl md:text-3xl font-black text-secondary">VND 180k</div>
+                    </div>
+                </div>
+            </div>
+            <div class="group relative overflow-hidden rounded-xl bg-surface-container-high h-[250px] md:h-[290px]">
+                <img class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA62pKMALPyFIdaN1BPPQYD9Oh6JAln4VgdfaiAMpcAJACP8511nW9S5aCjk2QAWA8bz4tyDtWTG9bzdCUPJp_8unOKwcKS0AZ9PCFwL8VE_sYaAxhdmNkcnSMUbfViT3ZuAdHWtRWp1Ak9KWhujU1s1f5hD2Xawx9E891fNUeTpXkvzlJT5I_xo-Y1fjcTgRtuSBa5iQipF_w2e0YVBz2Q-v59xTsuoG9rsQQB-hgJPISgO6i65Z4R1aFvXEo2x6wBXmt41MjphiCe"/>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 p-6">
+                    <h4 class="font-headline text-lg md:text-xl font-bold text-white">Street Negroni</h4>
+                    <span class="text-secondary font-bold text-sm md:text-base">160k</span>
+                </div>
+            </div>
+            <div class="group relative overflow-hidden rounded-xl bg-surface-container-high h-[250px] md:h-[290px]">
+                <img class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkBUqdsl7olKgS66BYhjNnqnQXClg70xgxXQ-wzZFjakMYN-Xm6FHDrQDoXEqCazQROyH1HlGWFi-3i0IRg0wFZjlS29TVNBqN0ljNWxGiyx6o4G0PMbu6zkPklk9sn6dDehcMLuVwUFaZHOhF_0AYvaSLmgullM6H7z_73jRC3UX_C8PZt6k1ZWgwWI5BQtRMBYxtYTS6IevpEOtQbBmIEnNNAXzZemm3gVdFxRYwhMLAZbfU039i5yz1aXP-5LIN2_FBqkC64llu"/>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 p-6">
+                    <h4 class="font-headline text-lg md:text-xl font-bold text-white">An Thuong Mule</h4>
+                    <span class="text-secondary font-bold text-sm md:text-base">140k</span>
+                </div>
+            </div>
+            <div class="lg:col-span-2 md:col-span-2 group relative overflow-hidden rounded-xl bg-surface-container-high h-[250px] md:h-[290px]">
+                <img class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuGtVskb6DN7arAOy3DOXn-q4YgbnRxDH9zun5EQA7JTvAKucMJ-Ks_9GY4X_5V6MXeuRgcnwMNXOs1qMxKadjeCB76ju2Zcsm1ADR10O34KciKTf9LkukSqrC_uxxQnBTnaYxBwLN83caw3d-OUS1tf6IkgINYM_V-8wIZ_QePkxZ86ONVJ7quzUTfGdQO9jNrNI9YxwmQtG8ckAQdoIH3EQecCZwOEPCO-bmN-Qdk7nimHku0c7cJvJ651BNvTKQIbhs8RlXDrj2"/>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 p-6 flex justify-between items-end w-full">
+                    <div>
+                        <h4 class="font-headline text-xl md:text-2xl font-bold text-white">Midnight Da Nang</h4>
+                        <p class="text-on-surface-variant text-xs md:text-sm">Coffee-infused luxury</p>
+                    </div>
+                    <span class="text-secondary font-bold text-lg md:text-xl">175k</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 md:py-32 px-6 md:px-12 bg-background">
+        <div class="text-center mb-10 md:mb-16">
+            <h2 class="font-headline text-3xl md:text-4xl font-bold text-primary mb-4">Review Us Here</h2>
+            <p class="text-on-surface-variant max-w-xl mx-auto text-sm md:text-base">Your stories fuel our alchemy. Share your experience on our global platforms.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
+            <a class="bg-surface-container hover:bg-surface-bright p-6 md:p-10 rounded-xl transition-all flex items-center justify-between group" href="#">
+                <div class="flex items-center gap-4 md:gap-6">
+                    <div class="w-12 h-12 md:w-16 md:h-16 rounded-full bg-surface-container-high flex items-center justify-center text-primary shrink-0">
+                        <span class="material-symbols-outlined text-2xl md:text-3xl">star</span>
+                    </div>
+                    <div>
+                        <h3 class="font-headline text-xl md:text-2xl font-bold">Google Maps</h3>
+                        <p class="text-on-surface-variant font-label text-[10px] md:text-xs uppercase tracking-widest mt-1">4.9 Stars • 500+ Reviews</p>
+                    </div>
+                </div>
+                <span class="material-symbols-outlined text-primary-container group-hover:translate-x-2 transition-transform">arrow_forward</span>
+            </a>
+            <a class="bg-surface-container hover:bg-surface-bright p-6 md:p-10 rounded-xl transition-all flex items-center justify-between group" href="#">
+                <div class="flex items-center gap-4 md:gap-6">
+                    <div class="w-12 h-12 md:w-16 md:h-16 rounded-full bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
+                        <span class="material-symbols-outlined text-2xl md:text-3xl">reviews</span>
+                    </div>
+                    <div>
+                        <h3 class="font-headline text-xl md:text-2xl font-bold">TripAdvisor</h3>
+                        <p class="text-on-surface-variant font-label text-[10px] md:text-xs uppercase tracking-widest mt-1">Top Rated in Da Nang</p>
+                    </div>
+                </div>
+                <span class="material-symbols-outlined text-secondary group-hover:translate-x-2 transition-transform">arrow_forward</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="py-20 md:py-32 px-6 md:px-12 bg-surface-container-low border-t border-outline-variant/10" id="contact">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-start">
+            <div class="space-y-8 md:space-y-10">
+                <div>
+                    <h2 class="font-headline text-4xl md:text-5xl font-bold text-on-surface mb-6">Visit The Alchemist</h2>
+                    <div class="flex items-start gap-4 text-primary">
+                        <span class="material-symbols-outlined mt-1">location_on</span>
+                        <p class="font-body text-xl md:text-2xl text-on-surface font-medium leading-tight">
+                            42 An Thuong 2, <br/> 
+                            Ngu Hanh Son, Da Nang, <br/>
+                            Viet Nam
+                        </p>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <h4 class="font-label text-[10px] md:text-xs uppercase tracking-widest font-bold text-secondary">Connect With Us</h4>
+                    <div class="flex gap-4 md:gap-8">
+                        <a class="group flex flex-col items-center gap-2 md:gap-3" href="tel:+84123456789">
+                            <div class="w-12 h-12 md:w-14 md:h-14 rounded-xl bg-surface-container-high flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-all">
+                                <span class="material-symbols-outlined">call</span>
+                            </div>
+                            <span class="font-label text-[10px] uppercase font-bold tracking-widest">Phone</span>
+                        </a>
+                        <a class="group flex flex-col items-center gap-2 md:gap-3" href="#">
+                            <div class="w-12 h-12 md:w-14 md:h-14 rounded-xl bg-surface-container-high flex items-center justify-center text-primary group-hover:bg-[#25D366] group-hover:text-white transition-all">
+                                <span class="material-symbols-outlined">chat</span>
+                            </div>
+                            <span class="font-label text-[10px] uppercase font-bold tracking-widest">WhatsApp</span>
+                        </a>
+                        <a class="group flex flex-col items-center gap-2 md:gap-3" href="#">
+                            <div class="w-12 h-12 md:w-14 md:h-14 rounded-xl bg-surface-container-high flex items-center justify-center text-primary group-hover:bg-[#0068FF] group-hover:text-white transition-all">
+                                <span class="material-symbols-outlined">sms</span>
+                            </div>
+                            <span class="font-label text-[10px] uppercase font-bold tracking-widest">Zalo</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[350px] md:h-[500px] rounded-2xl overflow-hidden shadow-2xl relative mt-4 lg:mt-0">
+                <img alt="Map" class="w-full h-full object-cover brightness-50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGUUvGQVOv20abB66V8iFtMOwTQX87-_xd44en3g3G4Nm5J9cpaMueDXA2lPyBOtOATPAeLqkM2xvWHbMtYF7Y72GxnLSe4oR9mKDN6aUGmpPtmNY-hnqZPt5IQF57MKtwxODkAWTB__5gGOuLc-rivN44cQefNb2HNf5wMp90JFtu3wJh7IGNMSw1exsad6V2dzEtdsNHf27kfnWwBSiLoTrk6qDTzpz4cboMhTOx7SpY4HBL8OE2N3sp5zV3HC9wNqQmURUWTc6b"/>
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="bg-primary text-on-primary px-4 md:px-6 py-2 md:py-3 rounded-full font-bold shadow-2xl flex items-center gap-2 text-sm md:text-base cursor-pointer">
+                        <span class="material-symbols-outlined">explore</span>
+                        Open in Google Maps
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="bg-[#0e0e0e] w-full py-10 md:py-16 px-6 md:px-12 border-t border-[#504532]/15">
+    <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 md:gap-8 w-full">
+        <div class="space-y-2 md:space-y-4">
+            <div class="text-lg font-bold text-[#e9c349] font-headline">Dui Social</div>
+            <p class="font-['Manrope'] text-xs md:text-sm tracking-wide uppercase font-medium text-[#d4c5ab]">© 2024 Dui Social. The Street Alchemist. All rights reserved.</p>
+        </div>
+        <div class="flex flex-wrap gap-4 md:gap-8 font-['Manrope'] text-xs md:text-sm tracking-wide uppercase font-medium">
+            <a class="text-[#d4c5ab] hover:text-[#e9c349] underline decoration-2 underline-offset-8 transition-all tracking-widest" href="#">Google Reviews</a>
+            <a class="text-[#d4c5ab] hover:text-[#e9c349] underline decoration-2 underline-offset-8 transition-all tracking-widest" href="#">TripAdvisor</a>
+            <a class="text-[#d4c5ab] hover:text-[#e9c349] underline decoration-2 underline-offset-8 transition-all tracking-widest" href="#">Phone</a>
+            <a class="text-[#d4c5ab] hover:text-[#e9c349] underline decoration-2 underline-offset-8 transition-all tracking-widest" href="#">WhatsApp</a>
+            <a class="text-[#d4c5ab] hover:text-[#e9c349] underline decoration-2 underline-offset-8 transition-all tracking-widest" href="#">Zalo</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
